@@ -23,7 +23,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='cursor-pointer hover:text-indigo-800 transition ease-in'>
-                        <Link href={'/'}>
+                        <Link href={'/login'}>
                             Login
                         </Link>
                     </li>
