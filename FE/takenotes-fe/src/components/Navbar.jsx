@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='bg-indigo-300 w-full py-3 px-30 flex items-center justify-between'>
+        <div className='bg-indigo-300 w-full py-3 px-30 flex items-center justify-between h-[55px]'>
             <div>
                 <Link href={'/'} className='text-xl font-bold text-indigo-700 cursor-pointer'>Keep Notes</Link>
             </div>
