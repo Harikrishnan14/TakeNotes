@@ -1,0 +1,51 @@
+# =========================
+# Python / Django (BE)
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Django files
+BE/db.sqlite3
+BE/media/
+BE/staticfiles/
+*.log
+
+# Ignore Django migration files (optional)
+BE/**/migrations/*.py
+!BE/**/migrations/__init__.py
+
+# =========================
+# Node / Frontend (FE)
+# =========================
+FE/node_modules/
+FE/.next/
+FE/.nuxt/
+FE/dist/
+FE/build/
+FE/.cache/
+
+# Frontend env files
+FE/.env
+FE/.env.local
+FE/.env.*.local
+
+# =========================
+# IDE / OS Specific
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Other
+# =========================
+*.bak
+*.swp
