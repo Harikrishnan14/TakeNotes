@@ -7,7 +7,7 @@ const Login = () => {
     const router = useRouter()
 
     return (
-        <div className='py-4 px-30 flex flex-col'>
+        <div className='py-4 px-30'>
             <BreadCrumb title={"Login Page"} />
             <div className='flex items-center justify-center min-h-100' style={{ height: 'calc(100vh - 150px)' }}>
                 <div className='border-2 border-amber-900 rounded-lg overflow-hidden w-100'>
