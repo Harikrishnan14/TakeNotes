@@ -1,3 +1,4 @@
+import BreadCrumb from "@/components/BreadCrumb";
 import Modal from "@/components/Modal";
 import { useState } from "react";
 
@@ -10,8 +11,9 @@ export default function Home() {
 
   return (
     <div className='py-4 px-30 relative'>
+       <BreadCrumb title={"My Notes"} />
       <h1 className="font-bold text-2xl text-amber-800 mb-6">Good Morning Deva!</h1>
-      <div className='grid grid-cols-4 gap-4 overflow-auto py-1' style={{ height: 'calc(100vh - 150px)' }}>
+      <div className='grid grid-cols-4 gap-4 overflow-auto py-1' style={{ height: 'calc(100vh - 180px)' }}>
         {Array.from({ length: 10 }).map((_, index) => (
           <div
             className='border-2 border-amber-900 rounded-lg overflow-hidden w-full h-[235px] bg-white cursor-pointer transition-shadow duration-200 hover:-translate-y-1 hover:shadow-lg'
